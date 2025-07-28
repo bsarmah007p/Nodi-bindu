@@ -40,7 +40,7 @@ DallasTemperature ds18b20b(&oneWireB);
 const char mqttServer[] = "io.adafruit.com";
 const int mqttPort = 1883;
 const char mqttUser[] = "uSER-NAME";
-const char mqttPassword[] = "AIO-pin";
+const char mqttPassword[] = "AIO-Key";
 const char mqttPublishTopic[] = "USER-NAME/feeds/FEED-NAME";
 unsigned long lastPublishTime = 0;
 const unsigned long publishInterval = 5000;
